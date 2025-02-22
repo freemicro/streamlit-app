@@ -1,15 +1,7 @@
-name: my-rdkit-app
+name: test-rdkit-env
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.10
-  - rdkit  # from conda-forge
-
-  - pip  # Ensure pip is in the environment
+  - rdkit
   - streamlit
-  - pillow
-
-  - pip:
-      - torch  # Let pip install PyTorch
-      
