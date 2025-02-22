@@ -1,0 +1,9 @@
+name: my-rdkit-app
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - streamlit
+  - rdkit
+  - pytorch
+  - pillow
